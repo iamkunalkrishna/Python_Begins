@@ -1,13 +1,4 @@
-from unittest import result
-
-
-user_name ="Bro_Code"
-year = 2026
-pi = 3.14
-is_admin = True
-
-#print(f"Hello {user_name}\nWelcome to the year {year}\nThe value of pi is {pi}\nIs admin working today? : {is_admin}")
-
+# Program to perform basic arithmetic operations and check the sign of the numbers
 
 Number1 = int (input("Enter first number: "))
 Number2 = int (input("Enter second number: "))
