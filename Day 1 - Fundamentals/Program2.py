@@ -8,9 +8,9 @@ Multiply = Number1 * Number2
 Division = Number1 / Number2
 Percentage = (Number1 / Number2) * 100
 print(f"The result of adding {Number1} and {Number2} is: {add}")
-print(f"The result of subtracting {Number2} from {Number1} is: {subtract}")
-print(f"The result of multiplying {Number1} and {Number2} is: {Multiply}")
-print(f"The result of dividing {Number1} by {Number2} is: {Division}")
+print(f"The result of subtraction is: {subtract}")
+print(f"The result of multiplication is: {Multiply}")
+print(f"The result of division is: {Division}")
 print(f"The percentage of {Number1} relative to {Number2} is: {Percentage}")
 
 if Number1 > 0 and Number2 > 0:
@@ -30,3 +30,9 @@ elif Number1%2 == 0 and Number2%2 != 0:
     print(f"\nThe first number is even and the second number is odd")
 else:
     print(f"\nThe first number is odd and the second number is even")
+
+# Program to greet the user
+
+String1 = str(input("\nEnter your name: "))
+print(f"\nHello {String1}, welcome to the program!")
+print(type(String1))
