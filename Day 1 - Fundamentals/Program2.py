@@ -31,11 +31,13 @@ elif Number1%2 == 0 and Number2%2 != 0:
 else:
     print(f"\nThe first number is odd and the second number is even")
 
-# Program to greet the user
+# Program to perfrom string concatenation and check the data type of the entered strings
 
 String1 = str(input("\nEnter your name: "))
-print(f"\nHello {String1}, welcome to the program!")
+String2 = str(input("\nEnter your age: "))
+print(f"\nHello {String1}, welcome to the program!" + f" - You are {String2} years old.")
 print(type(String1))
+print(type(String2))
 
 # Program to convert the entered temperature from Celsius to Fahrenheit
 
