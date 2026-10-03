@@ -1,3 +1,6 @@
+from unittest import result
+
+
 user_name ="Bro_Code"
 year = 2026
 pi = 3.14
@@ -6,14 +9,22 @@ is_admin = True
 #print(f"Hello {user_name}\nWelcome to the year {year}\nThe value of pi is {pi}\nIs admin working today? : {is_admin}")
 
 
-input1 = int (input("Enter first number: "))
-input2 = int (input("Enter second number: "))
-result = input1 + input2
-print(f"The result of adding {input1} and {input2} is: {result}")
-if input1>input2 and input2>0:
-    Difference = input1 - input2
-    print(f"The difference of {input1} and {input2} is:{Difference}")
+Number1 = int (input("Enter first number: "))
+Number2 = int (input("Enter second number: "))
+add = Number1 + Number2
+subtract = Number1 - Number2
+Multiply = Number1 * Number2
+Division = Number1 / Number2
+Percentage = (Number1 / Number2) * 100
+print(f"The result of adding {Number1} and {Number2} is: {add}")
+print(f"The result of subtracting {Number2} from {Number1} is: {subtract}")
+print(f"The result of multiplying {Number1} and {Number2} is: {Multiply}")
+print(f"The result of dividing {Number1} by {Number2} is: {Division}")
+print(f"The percentage of {Number1} relative to {Number2} is: {Percentage}")
+
+if Number1 > 0 and Number2 > 0:
+    print(f"\nThe entered numbers are positive \n")
+elif Number1 < 0 and Number2 < 0:
+    print(f"\nThe entered numbers are negative \n")
 else:
-    print("The difference cannot be calculated as the second number is greater than the first number or the second number is less than or equal to zero")   
-    Div = float(input1) / float(input2)
-    print(f"The division of {input1} and {input2} is:{Div}")
+    print(f"\nThe entered numbers have different signs \n")
