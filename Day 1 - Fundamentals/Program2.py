@@ -36,3 +36,9 @@ else:
 String1 = str(input("\nEnter your name: "))
 print(f"\nHello {String1}, welcome to the program!")
 print(type(String1))
+
+# Program to convert the entered temperature from Celsius to Fahrenheit
+
+Celsius = float(input("\nEnter temperature in Celsius: "))
+Fahrenheit = (Celsius * 9/5) + 32
+print(f"\nThe temperature in Fahrenheit is: {Fahrenheit}")
