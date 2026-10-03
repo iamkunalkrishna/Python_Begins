@@ -1,0 +1,1 @@
+print("This is a simple program to demonstrate the use of variables and input/output in Python.")
