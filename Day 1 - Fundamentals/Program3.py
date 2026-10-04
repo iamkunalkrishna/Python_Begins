@@ -22,3 +22,22 @@ Rate = float(input("Enter the rate of interest: "))
 Time = float(input('Enter the tenure of loan: '))
 SI = (Principal*Rate*Time)/100
 print(f"The Simple Interest on Rs int({Principal}) at the rate of int({Rate})% until int({Time}) year is float({SI})")
+
+# Program for the if else statements
+
+age = int(input("Enter your age: "))
+if age>=18:
+    print("You are eligible to vote !!")
+else:
+    print("You are a minor $%^")
+
+
+# Program to check if the character entered by user is number, alphabet or special character
+
+p = input("Enter any key: ")
+if (p.isalpha()):
+    print ("The enetered key is a alphabet !!")
+if (p.isdigit()):
+    print("The entered key is a digit !!")
+if (p.isspace()):
+    print("The eneteres key is a speical character !!!")
