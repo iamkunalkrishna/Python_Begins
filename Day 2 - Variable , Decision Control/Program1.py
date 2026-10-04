@@ -29,3 +29,18 @@ if gen == "F" or gen == "f":
     print(f"Your bonus is Rs {bonf} and the overall salary is Rs {Over} ")
 else:
     print(f"Your bonus is Rs {bonm} and the overall salary is Rs {Man} " )
+
+
+# Program to tell the inteval of the number entered by user
+
+num = int(input("Enter the number between 1 to 50: "))
+if num >0 and num <=10:
+    print("Entered number is within th range 1 to 10")
+if num >10 and num <=20:
+    print("Entered number is within th range 11 to 20")
+if num >20 and num <=30:
+    print("Entered number is within th range 21 to 30")
+if num >30 and num <=40:
+    print("Entered number is within th range 31 to 40")
+if num >40 and num <= 50:
+    print("Entered number is within th range 41 to 50")
