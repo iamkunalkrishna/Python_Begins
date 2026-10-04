@@ -14,3 +14,11 @@ print(f"Your address is: {Address[:3]}")
 print(f"Your address is: {Address[4:7]}")
 print(f"Your address is: {Address[8:12]}")
 print(f"Your address is: {Address[9:12]}")
+
+# Program to calculate the simple interest and compound interest
+
+Principal = float(input("Enter the principal amount: "))
+Rate = float(input("Enter the rate of interest: "))
+Time = float(input('Enter the tenure of loan: '))
+SI = (Principal*Rate*Time)/100
+print(f"The Simple Interest on Rs int({Principal}) at the rate of int({Rate})% until int({Time}) year is float({SI})")
