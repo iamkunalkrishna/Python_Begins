@@ -16,7 +16,7 @@ if N1>N2:
 else:
     print(f"The second number S: {N2} is greater than the first number F: {N1}")
 
-# Program to distribute bonus as per the salary and sex
+# Program to distribute bonus as per the salary and gender
 
 Salary = float(input("Enter the salary: "))
 gen = str(input("Enter your gender: "))
