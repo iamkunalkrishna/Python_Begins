@@ -26,3 +26,13 @@ elif Agg<50 and Agg>=40:
     print(f"Congratulations !! You are passed with Third Dision and received {Agg}% aggregate")
 else:
     print(f"Sorry !! You are failed as you have received {Agg}% aggregate")
+
+    
+# Program to check whether the entered two number are equal or not
+
+P=int(input("Enter the first number: "))
+Q=int(input("Enter the second number: "))
+if P==Q:
+    print("The entered numbers are equal !!!",end=" ")
+else:
+    print("The entered numbers are not equal !!!", end=" ")
