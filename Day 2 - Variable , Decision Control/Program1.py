@@ -44,3 +44,4 @@ if num >30 and num <=40:
     print("Entered number is within th range 31 to 40")
 if num >40 and num <= 50:
     print("Entered number is within th range 41 to 50")
+    
