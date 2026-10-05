@@ -18,6 +18,9 @@ while(i<11):
 avg=sum/10
 print(f"The sum of first 10 numbers is {sum} and average is {avg}")
 
-
 # Program to print 20 horizontal asterisks(*)
 
+i=1
+while(i<21):
+    print("*",end="")
+    i+=1
