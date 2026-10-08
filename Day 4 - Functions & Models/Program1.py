@@ -1,19 +1,12 @@
-# Program of def
-m=int(input("Enter a number: "))
+# Program to write madlibs game
 
-Firstsub = int(input("Enter your marks in 1st subject: "))
-Secondsub = int(input("Enter your marks in 2nd subject: "))
-Thirdsub = int(input("Enter your marks in 3rd subject: "))
-Fourthsub = int(input("Enter your marks in 4th subject: "))
-Total=Firstsub+Secondsub+Thirdsub+Fourthsub
-Agg=int(Total/5)
-if Agg>75:
-    print(f"Congratulations !! You are passed with distinction and received {Agg}% aggregate")
-elif Agg<75 and Agg>=60:
-    print(f"Congratulations !! You are passed with First Dision and received {Agg}% aggregate")
-elif Agg<60 and Agg>=50:
-    print(f"Congratulations !! You are passed with Second Dision and received {Agg}% aggregate")
-elif Agg<50 and Agg>=40:
-    print(f"Congratulations !! You are passed with Third Dision and received {Agg}% aggregate")
-else:
-    print(f"Sorry !! You are failed as you have received {Agg}% aggregate"
+adjective1=input("Enter the adjective1: ")
+noun1=input("Enter the noun1: ")
+adjective2=input("Enter the adjective2: ")
+adjective3=input("Enter the adjective3: ")
+verb1=input("Enter the verb1: ")
+
+print(f"Today i want to a {adjective1} zoo.")
+print(f"In an exhibit i saw a {noun1}.")
+print(f"{noun1} is {adjective2} and {verb1}")
+print(f"I was {adjective3}!")
