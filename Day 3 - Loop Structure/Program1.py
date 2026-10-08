@@ -61,5 +61,3 @@ while(1):
 print(f"Count of Postive: {post}")
 print(f"Count of negative: {neg}")
 print(f"Count of Zeroes: {zero}")
-  
-
