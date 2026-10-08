@@ -1,4 +1,4 @@
-# Program to write madlibs game
+# Program for madlibs game
 
 adjective1=input("Enter the adjective1: ")
 noun1=input("Enter the noun1: ")
@@ -10,3 +10,15 @@ print(f"Today i want to a {adjective1} zoo.")
 print(f"In an exhibit i saw a {noun1}.")
 print(f"{noun1} is {adjective2} and {verb1}")
 print(f"I was {adjective3}!")
+
+
+# Program to enter the number and then print the sum of its digit
+
+s=0
+p=int(input("Enter the number: "))
+while(p!=0):
+    temp=p%10
+    s=s+temp
+    p=p/10
+print(f"The sum of their digits is : {s}")
+
